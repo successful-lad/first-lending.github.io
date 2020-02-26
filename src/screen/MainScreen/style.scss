@@ -1,0 +1,51 @@
+.mainScreen {
+  background-image: url('../../assets/img/mainImg.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px;
+    padding: 0 40px;
+    height: 100%;
+    box-sizing: border-box;
+
+    &__info {
+      display: flex;
+      justify-content: center;
+
+      &__wrapper {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        max-width: 75%;
+        min-height: 250px;
+
+      }
+      &__text {
+        max-width: 500px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+    }
+
+    &__screenImg {
+      max-width: 800px;
+      width: 100%;
+
+      img {
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+      }
+    }
+  }
+}
