@@ -20,8 +20,6 @@ const HeaderMenu = () =>{
     'headerMenu__menu_side__item': menuIsOpen,
   });
 
-  console.log(menuIsOpen);
-
   return(
     <div className='headerMenu'>
       <div className='headerMenu__logo'>
